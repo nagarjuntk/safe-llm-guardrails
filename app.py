@@ -25,7 +25,7 @@ def safe_llm(user_input):
         return "Sorry, something went wrong calling the model."
 
     # output guardrail
-    safe_output = output_filter(response)
+    safe_output = output_filter(response) 
 
     log_request(user_input, "ALLOWED")
 
