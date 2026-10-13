@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 from guardrails import detect_prompt_injection, detect_harmful_prompt, output_filter
 from config import SAFE_RESPONSE
@@ -37,7 +38,7 @@ demo = gr.Interface(
     inputs="text",
     outputs="text",
     title="Safe LLM Guardrails System",
-    description="LLM with Prompt Injection & Safety Guardrails"
-)
-
-demo.launch()
+    description="LLM with Prompt Injection & Safety Guardrails" 
+) 
+ 
+demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
