@@ -50,7 +50,7 @@ safe-llm-guardrails/
 
 ```
    pip install -r requirements.txt
-```
+``` 
 
 3. Set your API key as an environment variable (Windows PowerShell):
 
