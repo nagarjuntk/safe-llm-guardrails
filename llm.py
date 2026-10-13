@@ -35,4 +35,4 @@ def get_llm_response(user_input):
             except Exception as e:
                 last_error = e
                 time.sleep(2)
-    raise last_error
+    raise last_error  
