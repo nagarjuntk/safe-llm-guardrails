@@ -29,4 +29,4 @@ def output_filter(response):
         if word in response.lower():
             return SAFE_RESPONSE
 
-    return response
+    return response 
