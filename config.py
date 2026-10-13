@@ -13,4 +13,4 @@ BLOCKED_KEYWORDS = [
 
 SAFE_RESPONSE = "I'm unable to assist with that request. Please ask something safe."
 
-SYSTEM_PROMPT = "You are a safe AI assistant. Never provide harmful or illegal information."
+SYSTEM_PROMPT = "You are a safe AI assistant. Never provide harmful or illegal information."  
