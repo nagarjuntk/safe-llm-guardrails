@@ -2,6 +2,7 @@ import gradio as gr
 from guardrails import detect_prompt_injection, detect_harmful_prompt, output_filter
 from config import SAFE_RESPONSE
 from logger import log_request
+from llm import get_llm_response
 
 
 def safe_llm(user_input):
@@ -16,8 +17,12 @@ def safe_llm(user_input):
         log_request(user_input, "BLOCKED - HARMFUL")
         return SAFE_RESPONSE
 
-    # simulated LLM response
-    response = "AI Response: " + user_input
+    # real LLM response
+    try:
+        response = get_llm_response(user_input)
+    except Exception as e:
+        log_request(user_input, f"ERROR - {e}")
+        return "Sorry, something went wrong calling the model."
 
     # output guardrail
     safe_output = output_filter(response)

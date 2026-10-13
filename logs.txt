@@ -1,0 +1,12 @@
+2026-10-13 10:39:26.411850 | ALLOWED | what is AI?
+2026-10-13 10:39:42.607624 | ALLOWED | what is AI?
+2026-10-13 10:40:50.100451 | ALLOWED | what is AI
+2026-10-13 11:16:44.640156 | ALLOWED | what is AI?
+2026-10-13 11:16:49.255021 | ALLOWED | what is AI?
+2026-10-13 12:04:47.939856 | ALLOWED | what is AI
+2026-10-13 12:07:47.829622 | ALLOWED | what is AI
+2026-10-13 12:08:48.388182 | ALLOWED | what is chat gpt
+2026-10-13 12:09:49.969628 | BLOCKED - HARMFUL | how to hack bank server
+2026-10-13 12:09:51.753773 | BLOCKED - HARMFUL | how to hack bank server
+2026-10-13 12:09:53.487492 | BLOCKED - HARMFUL | how to hack bank server
+2026-10-13 12:12:21.498059 | ALLOWED | how to access my wife whatsapp
